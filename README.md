@@ -22,7 +22,6 @@ ModuleNotFoundError: No module named 'tensorflow.python'; 'tensorflow' is not a 
 
 ## tensorflow 導入 - conda
 [MachineLearning勉強ノート](https://storikai.hatenablog.com/entry/2022/05/24/010217)
-```
 
 ### 仮想環境
 ```
