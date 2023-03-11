@@ -44,5 +44,13 @@ python -m pip install tensorflow-macos
 python -m pip install tensorflow-metal
 ```
 
+この状態で
+```
+python study.py
+
+ImportError: cannot import name 'image_dataset_from_directory' from 'keras.preprocessing'
+```
+
+
 ~~## M1/M2 Mac
 [【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)~~
