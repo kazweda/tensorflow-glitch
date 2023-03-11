@@ -20,13 +20,29 @@ python -m pip install tensorflow-metal==0.5.0
 ModuleNotFoundError: No module named 'tensorflow.python'; 'tensorflow' is not a package
 ```
 
+## tensorflow 導入 - conda
+[MachineLearning勉強ノート](https://storikai.hatenablog.com/entry/2022/05/24/010217)
+```
+
+### 仮想環境
+```
+conda create --name tf2_10 python=3.10
+conda activate tf2_10
+```
+### パッケージインストール
+```
+conda install numpy opencv matplotlib scikit-learn pandas jupyter
+```
+### TensorFlow インストール
+```
+conda install -c apple tensorflow-deps
+```
+上のコマンドはパッケージが見つからず失敗。(skip)
+
+```
+python -m pip install tensorflow-macos
+python -m pip install tensorflow-metal
+```
+
 ~~## M1/M2 Mac
 [【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)~~
-
-https://namileriblog.com/python/python_library_ai/
-
-## M2 / venv
-[【Python】M1/M2 MacでPython環境の構築（pyenvとvenvのインストールと設定、そして使い方）](https://namileriblog.com/python/python_pyenv_venv/)
-
-## M2 / conda
-[MachineLearning勉強ノート](https://storikai.hatenablog.com/)

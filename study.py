@@ -14,7 +14,7 @@ IMAGE_SIZE = 224
 def get_data():
     # 画像ファイル含むデータセットダウンロード
     train_dir = os.path.dirname(
-        "cats_and_dogs_filtered/validation/")
+        "/Users/uedakazuaki/Documents/GitHub/tensorflow-glitch/cats_and_dogs_filtered/validation/")
 
     BATCH_SIZE = 32
     IMG_SIZE = (IMAGE_SIZE, IMAGE_SIZE)
