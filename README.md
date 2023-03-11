@@ -20,8 +20,13 @@ python -m pip install tensorflow-metal==0.5.0
 ModuleNotFoundError: No module named 'tensorflow.python'; 'tensorflow' is not a package
 ```
 
-## M1/M2 Mac
-[【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)
-
+~~## M1/M2 Mac
+[【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)~~
 
 https://namileriblog.com/python/python_library_ai/
+
+## M2 / venv
+[【Python】M1/M2 MacでPython環境の構築（pyenvとvenvのインストールと設定、そして使い方）](https://namileriblog.com/python/python_pyenv_venv/)
+
+## M2 / conda
+[MachineLearning勉強ノート](https://storikai.hatenablog.com/)
