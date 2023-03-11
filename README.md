@@ -1,0 +1,2 @@
+# tensorflow-glitch
+gdgshikokuもくもく会
