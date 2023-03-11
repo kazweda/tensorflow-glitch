@@ -5,8 +5,8 @@ from keras.applications.mobilenet import MobileNet
 from keras.layers import Input, Dense, GlobalAveragePooling2D
 # from tensorflow.keras import optimizers
 from keras.models import Sequential
-from keras.preprocessing import image_dataset_from_directory
-
+# from keras.preprocessing import image_dataset_from_directory
+from keras.utils import image_dataset_from_directory
 
 IMAGE_SIZE = 224
 
