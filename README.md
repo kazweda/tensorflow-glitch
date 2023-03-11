@@ -49,6 +49,7 @@ python study.py
 
 ImportError: cannot import name 'image_dataset_from_directory' from 'keras.preprocessing'
 ```
+下記に修正
 ```
 from keras.utils import image_dataset_from_directory
 ```
