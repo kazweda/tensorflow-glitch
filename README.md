@@ -49,7 +49,9 @@ python study.py
 
 ImportError: cannot import name 'image_dataset_from_directory' from 'keras.preprocessing'
 ```
-
+```
+from keras.utils import image_dataset_from_directory
+```
 
 ~~## M1/M2 Mac
 [【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)~~
