@@ -2,3 +2,4 @@
 venv/
 cats_and_dogs_filtered/
 *.pyc
+__pycache__
