@@ -1,6 +1,9 @@
 # tensorflow-glitch
 gdgshikokuもくもく会
 
+## 本日の教材
+- [TensorFlow を用いて、自前学習したモデルを Mobile Web で動かしてみた](https://zenn.dev/tam/articles/article20230122-tensorflowjs)
+
 ## 犬猫教師データ
 zip ファイルとして 
 https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip 
