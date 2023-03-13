@@ -1,6 +1,9 @@
 # tensorflow-glitch
 gdgshikokuもくもく会
 
+## 本日の教材
+- [TensorFlow を用いて、自前学習したモデルを Mobile Web で動かしてみた](https://zenn.dev/tam/articles/article20230122-tensorflowjs)
+
 ## 犬猫教師データ
 zip ファイルとして 
 https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip 
@@ -38,6 +41,7 @@ conda install -c apple tensorflow-deps
 ```
 上のコマンドはパッケージが見つからず失敗。(skip)
 
+下記を実行。
 ```
 python -m pip install tensorflow-macos
 python -m pip install tensorflow-metal
@@ -49,7 +53,17 @@ python study.py
 
 ImportError: cannot import name 'image_dataset_from_directory' from 'keras.preprocessing'
 ```
+下記に修正
+```
+from keras.utils import image_dataset_from_directory
+```
 
+あらためて
+```
+python study.py
 
-~~## M1/M2 Mac
-[【Python】M1/M2 MacでPython環境の構築（機械学習・データ分析編）](https://namileriblog.com/python/python_library_ai/)~~
+...
+StatefulPartitionedCall'
+could not find registered platform with id: ...
+...
+```
